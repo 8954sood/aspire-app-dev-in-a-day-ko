@@ -57,6 +57,7 @@
     {
         try
         {
+            summaryResult = videoLanguageCode;
             var result = await ApiApp.SummariseAsync(youTubeLinkUrl, videoLanguageCode, summaryLanguageCode);
             summaryResult = result;
         }
